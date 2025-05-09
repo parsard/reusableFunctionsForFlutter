@@ -1,16 +1,25 @@
-# reusable_functions
+# Dio & Secure Storage Utilities
 
-A new Flutter project.
+This repository showcases utility functions for making HTTP requests and handling errors using Dio and securely storing sensitive data with Flutter Secure Storage. These utilities are modular, making them reusable and easily integrated into any Flutter application.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Error Handling**: Centralized error logging and user-friendly error messages using custom utility functions (`ErrorHandler`).
+- **Secure Storage**: Securely store, retrieve, and delete key-value data (e.g., tokens) using the encrypted Flutter Secure Storage API.
+- **HTTP API Integration**: Pre-configured Dio client for handling API requests with interceptors for request logging and global error catching.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Prerequisites
+
+### Required Flutter Packages
+
+Before using the provided utility functions, you need to install the following packages in your Flutter project:
+
+### Dio
+Package for handling HTTP requests with advanced configuration features like interceptors, timeouts, and global error handling.
+
+```bash
+flutter pub add dio
